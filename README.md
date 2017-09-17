@@ -1,0 +1,1 @@
+docker run -it -v d:\Documents\docker-xmr-stak-cpu\config.txt:/config.txt xmr-stak-cpu

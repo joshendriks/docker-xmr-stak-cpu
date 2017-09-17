@@ -1,0 +1,10 @@
+version: '3'
+services:
+  xmr-stak-cpu:
+    restart: always
+    image: joshendriks/xmr-stak-cpu:latest
+    volumes:
+      - "./config.txt:/config.txt"
+      - "./sonos/clips:/app/static/clips"
+      - "./sonos/cache:/app/cache"
+      - "./sonos/presets:/app/presets"
